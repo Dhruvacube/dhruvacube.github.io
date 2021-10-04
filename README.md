@@ -1,5 +1,5 @@
 # Dhruva Shaw
-###### A student busy with studies!
+###### A student busy with studies! Also a very friendly guy UwU
 ![Discord Status](https://img.shields.io/endpoint?label=status&url=https://dev.discordprofiles.me/api/badge/status/571889108046184449 "Discord Status")
 
 ![Sai Friendship](https://i.imgur.com/yCdso6y.jpg "Sai Friendship")
@@ -30,7 +30,7 @@
 
 ***
 
-### Support Server
+### Support Server Links
 * [TopGG](https://top.gg/servers/747480356625711204)
 * [Disboard](https://disboard.org/server/747480356625711204)
 * [Discord Bot List](https://discordbotlist.com/servers/konohagakure)
@@ -57,3 +57,4 @@
 
 
 ![Namikaze Family](https://media.discordapp.net/attachments/777918705098686465/813086521481232414/image0.jpg)
+Hope to work with you all soon !
