@@ -1,10 +1,13 @@
 ## WHOSOEVER IS SEEING IT PLEASE COPY THE CODE AND THEN RUN IT!
 
-print("Welcome to Mashuka generator")
+print("Welcome to Mashuka generator \n")
+print('Alert !')
+print("-----------------")
+print('PLEASE REMEMBER : this is a piece of fiction and the very fact that you using this program signifies the high lvl of singleness that exists in your life')
 print()
 
-x=input("Enter the boy's name\n")
-z=["Shubhi Paul","Bhanupriya","Soumi Pandit","Vidya Rawat","Shabnam Parveen","Khushalika Gaba","Gurleen Chahal","Gargeshree Das"]
+x=input("Enter the boy's name : ")
+z=["Ananya","Khushi","Urvika","Nehal","Rashika","Meghana","Urvi"]
 
 print()
 
@@ -13,6 +16,7 @@ Z1=[]
 W1=[]
 
 """Boys's Loving Part"""
+
 for it in range(b):
     var=var1=0
     l=l1=[]
@@ -33,6 +37,7 @@ for it in range(b):
             e+=a1
             break
     print(x,"loves",z[it],e,"%")
+    print('the stats can be wrong... just saying!!")
     Z1.append(e)
 
 print()
@@ -73,6 +78,7 @@ else:
     dc3="or "+z[dc2]
 print()
 print("It can be now visualised that",x,"girlfriend can be",z[dc1],dc3)
+print('only imagine... cause it aint real')
 
 print()
 print("Press Enter to exit")
