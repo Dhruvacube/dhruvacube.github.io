@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /standards/
-title: Standards Development
+title: Standardization
 description: This page highlights the standards development groups I am a part of, showcasing the collaborative efforts involved in creating and refining industry standards.
 nav: true
 nav_order: 6
