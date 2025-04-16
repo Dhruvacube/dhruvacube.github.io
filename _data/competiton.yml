@@ -1,0 +1,17 @@
+- name: Robotics Championship 2023
+  date: "2023-09-15"
+  ranking: "1st Place"
+  certificate: "assets/certificates/robotics_champ_2023.pdf"
+  description: "A national-level robotics competition where I secured 1st place."
+
+- name: AI Hackathon 2024
+  date: "2024-02-20"
+  ranking: "Top 5 Finalist"
+  certificate: "assets/certificates/ai_hackathon_2024.pdf"
+  description: "Participated in a global AI challenge focusing on autonomous systems."
+
+- name: Innovation Summit 2022
+  date: "2022-07-10"
+  ranking: "Special Recognition Award"
+  certificate: "assets/certificates/innovation_summit_2022.pdf"
+  description: "Presented my project on bionic arms, receiving special recognition."
