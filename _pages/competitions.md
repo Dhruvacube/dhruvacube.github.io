@@ -30,6 +30,12 @@ _styles: >
   .competition-item p strong {
     color: #007bff; /* Makes ranking visually pop */
   }
+  @media (prefers-color-scheme: light) {
+    .competition-item {
+        background: #f8f9fa;
+        border: 1px solid #000000;
+    }
+    }
 ---
 
 <div class="competitions-container">
