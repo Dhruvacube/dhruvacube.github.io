@@ -17,8 +17,15 @@ _styles: >
     padding: 15px;
     border-radius: 8px;
   }
-  [data-mdb-theme=dark] .competition-item {
-        background: #2a2a2a;
+  @media (prefers-color-scheme: dark) {
+    .competition-item {
+        background: #1e1e1e;
+        border: 1px solid #333;
+    }
+
+    .competition-item a {
+        color: #4db5ff; /* Adjust link color for visibility */
+    }
     }
   .competition-item p strong {
     color: #007bff; /* Makes ranking visually pop */
