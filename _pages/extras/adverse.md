@@ -97,7 +97,7 @@ This feature set showcases the power of **Adverse** as a highly efficient **OSIN
     <iframe src='{{ site.url }}/assets/pdf/adverse_patent_status.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 
-The patent for adverse been published in India Patent Journal (Issue No: 1070, 28/03/2025, Friday) under the title "Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance" with the application number **202531018252**. _Pdf page - 1070_
+The patent for adverse been published in India Patent Journal (Issue No: 13/2025, 28/03/2025, Friday) under the title "Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance" with the application number **202531018252**. _Pdf page - 1070_
 
 <div class="containerpdf">
     <iframe src='https://personal.creativenet.tech/adverse-patent-journal-28thmarch.pdf#page=1070' class="responsive-object-pdf" type='application/pdf'></iframe>
@@ -110,7 +110,7 @@ The patent for adverse been published in India Patent Journal (Issue No: 1070, 2
 Adverse is capable of generating a comprehensive report based on the data it collects. This report includes detailed information about the target, including their social media profiles, images, and any other relevant data. The report is designed to be user-friendly and can be easily shared with law enforcement or other relevant parties.
 Below I have shared a demo report which does not include all the parts of the report but gives you an idea of how the report looks like.
 
-**Demo** [**Password Accessible**: __7453__]: https://short.dhruvashaw.in/adverse/idex
+**Demo** [**Password Accessible**: __7453__]: [https://short.dhruvashaw.in/adverse/idex](https://short.dhruvashaw.in/adverse/idex)
 
 Enter **7453** when asked for the password.
 

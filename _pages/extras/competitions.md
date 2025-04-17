@@ -21,8 +21,10 @@ _styles: >
   }
 ---
 
+{% assign sorted_competitions = site.data.competitions | sort: "date" | reverse %}
+
 <div class="competitions-container">
-    {% for competition in site.data.competitions %}
+    {% for competition in sorted_competitions %}
     <div class="competition-item"  data-bs-theme="light" style="border: 1px solid #333;">
         <h2>{{ competition.name }}</h2>
         {% if competition.date %}
