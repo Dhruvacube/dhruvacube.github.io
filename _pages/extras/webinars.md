@@ -2,7 +2,7 @@
 layout: page
 title: Webinars/Lectures
 permalink: /webinarsandlectures/
-nav: true
+nav: false
 ---
 
 {% include news.liquid %}

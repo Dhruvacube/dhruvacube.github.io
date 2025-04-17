@@ -14,4 +14,7 @@ children:
   - title: divider
   - title: Competitions
     permalink: /competitions/
+  - title: divider
+  - title: Webinars/Lectures
+    permalink: /webinarsandlectures/
 ---
