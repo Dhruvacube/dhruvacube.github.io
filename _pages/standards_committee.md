@@ -33,7 +33,6 @@ This recommended practice defines levels of capabilities of Artificial Intellige
 
 ---
 
-
 ## IEEE SA WG - P62659 [Standard for Nanomanufacturing -- Large Scale Manufacturing for Nanoelectronics]
 
 This International Standard provides a framework for introducing nanoelectronics into large scale, high volume production in semiconductor manufacturing facilities through the incorporation of nanomaterials (e.g. carbon nanotubes, graphene, quantum dots, etc.). Since semiconductor manufacturing facilities need to incorporate practices that maintain high yields, there are very strict requirements for how manufacturing is performed. Nanomaterials represent a potential contaminant in semiconductor manufacturing facilities and need to be introduced in a structured and methodical way. This International Standard provides steps employed to facilitate the introduction of nanomaterials into the semiconductor manufacturing facilities. This sequence is described under the areas of raw materials acquisition, materials processing, design, integrated circuits (IC) fabrication, testing, and end-use. These activities represent the major stages of the supply chain in semiconductor manufacturing facilities.
