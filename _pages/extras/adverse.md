@@ -70,3 +70,17 @@ With its **robust search capabilities** and **passive reconnaissance options**, 
 This feature set showcases the power of **Adverse** as a highly efficient **OSINT tool** designed for intelligence gathering, surveillance, and digital footprint tracking.
 
 ---
+
+## **Patent Information**
+**Adverse** is undergoing patenting process in India, with the patent application number **202531018252**.
+<div class="containerpdf">
+    <iframe src='{{ site.url }}/assets/pdf/adverse_patent_status.pdf' class="responsive-object-pdf" type='application/pdf'></iframe>
+</div>
+
+The patent for adverse been published in India Patent Journal (Issue No: 1070, 28/03/2025, Friday) under the title "Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance" with the application number **202531018252**. _Pdf page - 1070_
+
+<div class="containerpdf">
+    <iframe src='https://personal.creativenet.tech/adverse-patent-journal-28thmarch.pdf#page=1070' class="responsive-object-pdf" type='application/pdf'></iframe>
+</div>
+
+---
