@@ -13,34 +13,18 @@ _styles: >
   }
 
   .competition-item {
-    background: #f8f9fa;
     padding: 15px;
     border-radius: 8px;
   }
-  @media (prefers-color-scheme: dark) {
-    .competition-item {
-        background: #1e1e1e;
-        border: 1px solid #333;
-    }
 
-    .competition-item a {
-        color: #4db5ff; /* Adjust link color for visibility */
-    }
-    }
   .competition-item p strong {
     color: #007bff; /* Makes ranking visually pop */
   }
-  @media (prefers-color-scheme: light) {
-    .competition-item {
-        background: #f8f9fa;
-        border: 1px solid #000000;
-    }
-    }
 ---
 
 <div class="competitions-container">
     {% for competition in site.data.competitions %}
-    <div class="competition-item">
+    <div class="competition-item"  data-bs-theme="light" style="background: #1e1e1e;border: 1px solid #333;">
         <h2>{{ competition.name }}</h2>
         {% if competition.date %}
             <p><strong>Date:</strong> {{ competition.date }}</p>
@@ -60,9 +44,50 @@ _styles: >
         {% if competition.award %}
             <p><strong>Award:</strong> {{ competition.award }}</p>
         {% endif %}
-        <p><strong>Ranking:</strong> {{ competition.ranking }}</p>
-        <p>{{ competition.description }}</p>
-        <a href="{{ competition.certificate }}" target="_blank">View Certificate</a>
+        {% if competition.ranking %}
+            <p><strong>Ranking:</strong> {{ competition.ranking }}</p>
+        {% endif %}
+        {% if competition.description %}
+            <p>{{ competition.description }}</p>
+        {% endif %}
+        {% if competition.certificate %}
+            <a href="assets/certificates/{{ competition.certificate }}" target="_blank">View Certificate</a>
+        {% elsif competition.drive_link %}
+            <a href="{{ competition.drive_link }}" target="_blank">View Certificate</a>
+        {% endif %}
+    </div>
+    <!-- Dark mode item -->
+    <div class="competition-item"  data-bs-theme="dark" style="background: #f8f9fa;">
+        <h2>{{ competition.name }}</h2>
+        {% if competition.date %}
+            <p><strong v>Date:</strong> {{ competition.date }}</p>
+        {% endif %}
+        {% if competition.location %}
+            <p><strong  style="color: #007bff">Location:</strong> {{ competition.location }}</p>
+        {% endif %}
+        {% if competition.organizer %}
+            <p><strong  style="color: #007bff">Organizer:</strong> {{ competition.organizer }}</p>
+        {% endif %}
+        {% if competition.venue %}
+            <p><strong  style="color: #007bff">Venue:</strong> {{ competition.venue }}</p>
+        {% endif %}
+        {% if competition.team_members %}
+            <p><strong  style="color: #007bff">Team Members:</strong> {{ competition.team_members | join: ', ' }}</p>
+        {% endif %}
+        {% if competition.award %}
+            <p><strong  style="color: #007bff">Award:</strong> {{ competition.award }}</p>
+        {% endif %}
+        {% if competition.ranking %}
+            <p><strong  style="color: #007bff">Ranking:</strong> {{ competition.ranking }}</p>
+        {% endif %}
+        {% if competition.description %}
+            <p>{{ competition.description }}</p>
+        {% endif %}
+        {% if competition.certificate %}
+            <a href="assets/certificates/{{ competition.certificate }}" target="_blank" style="color: #4db5ff">View Certificate</a>
+        {% elsif competition.drive_link %}
+            <a href="{{ competition.drive_link }}" target="_blank"  style="color: #4db5ff">View Certificate</a>
+        {% endif %}
     </div>
     {% endfor %}
 </div>
