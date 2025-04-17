@@ -3,8 +3,7 @@ layout: page
 title: Competitions
 permalink: /competitions/
 description: This page list all the competitions I have been part of.
-nav: true
-nav_order: 4
+nav: false
 _styles: >
   .competitions-container {
     display: flex;

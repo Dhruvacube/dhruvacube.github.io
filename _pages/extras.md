@@ -11,4 +11,7 @@ children:
   - title: divider
   - title: Repositories
     permalink: /repositories/
+  - title: divider
+  - title: Competitions
+    permalink: /competitions/
 ---
