@@ -15,17 +15,24 @@ This standard defines a technical architecture for quantum computers. Features a
 
 [IEEE SA WG - P3120](https://standards.ieee.org/ieee/3120/11359/)
 
+---
+
 ## IEEE SA WG - P3348 [Recommended Practice for the Framework and Evaluation Methods of Two-Dimensional (2D) Real-Person Digital Clothes Model Generation System Based on Artificial Intelligence]
 
 This standard defines a framework including requirements and evaluation methods for a two-dimensional (2D) real-person digital clothes model generation system using artificial intelligence (AI). In the standard, the framework includes functional modules and the input/output interfaces of the 2D real-person digital clothes model generation system. The input interface includes pictures of the clothes to be presented, clothes measurements, and model types. The output interface provides a mechanism to export images of the generated models in clothes and multiple postures. The framework includes modules for digital model face generation, clothes generation, digital model posture generation, and image fusion. Methods for evaluating the generated 2D real-person digital clothes models are also specified in this standard.
 
 [IEEE SA WG - P3348](https://standards.ieee.org/ieee/3348/11180/)
 
+---
+
 ## IEEE SA WG - P3514 [Recommended Practice for Levels of Artificial Intelligence Capabilities for AI Entities and Applications]
 
 This recommended practice defines levels of capabilities of Artificial Intelligence (AI). The capability levels can be used to classify AI entities after benchmarking and evaluation. Evaluation criteria and specific benchmarks are provided for common capabilities per typical application scenarios/domains (e.g., AI used in a personal computer, in a mobile phone, or by robots).
 
 [IEEE SA WG - P3514](https://standards.ieee.org/ieee/3514/11739/)
+
+---
+
 
 ## IEEE SA WG - P62659 [Standard for Nanomanufacturing -- Large Scale Manufacturing for Nanoelectronics]
 
