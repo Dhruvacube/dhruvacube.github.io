@@ -3,8 +3,8 @@ layout: page
 title: Competitions
 permalink: /competitions/
 description: This page list all the competitions I have been part of.
-nav: false
-nav_order: 15
+nav: true
+nav_order: 4
 _styles: >
   .competitions-container {
     display: flex;
@@ -24,7 +24,7 @@ _styles: >
 
 <div class="competitions-container">
     {% for competition in site.data.competitions %}
-    <div class="competition-item"  data-bs-theme="light" style="background: #1e1e1e;border: 1px solid #333;">
+    <div class="competition-item"  data-bs-theme="light" style="border: 1px solid #333;">
         <h2>{{ competition.name }}</h2>
         {% if competition.date %}
             <p><strong>Date:</strong> {{ competition.date }}</p>
@@ -56,38 +56,6 @@ _styles: >
             <a href="{{ competition.drive_link }}" target="_blank">View Certificate</a>
         {% endif %}
     </div>
-    <!-- Dark mode item -->
-    <div class="competition-item"  data-bs-theme="dark" style="background: #f8f9fa;">
-        <h2>{{ competition.name }}</h2>
-        {% if competition.date %}
-            <p><strong v>Date:</strong> {{ competition.date }}</p>
-        {% endif %}
-        {% if competition.location %}
-            <p><strong  style="color: #007bff">Location:</strong> {{ competition.location }}</p>
-        {% endif %}
-        {% if competition.organizer %}
-            <p><strong  style="color: #007bff">Organizer:</strong> {{ competition.organizer }}</p>
-        {% endif %}
-        {% if competition.venue %}
-            <p><strong  style="color: #007bff">Venue:</strong> {{ competition.venue }}</p>
-        {% endif %}
-        {% if competition.team_members %}
-            <p><strong  style="color: #007bff">Team Members:</strong> {{ competition.team_members | join: ', ' }}</p>
-        {% endif %}
-        {% if competition.award %}
-            <p><strong  style="color: #007bff">Award:</strong> {{ competition.award }}</p>
-        {% endif %}
-        {% if competition.ranking %}
-            <p><strong  style="color: #007bff">Ranking:</strong> {{ competition.ranking }}</p>
-        {% endif %}
-        {% if competition.description %}
-            <p>{{ competition.description }}</p>
-        {% endif %}
-        {% if competition.certificate %}
-            <a href="assets/certificates/{{ competition.certificate }}" target="_blank" style="color: #4db5ff">View Certificate</a>
-        {% elsif competition.drive_link %}
-            <a href="{{ competition.drive_link }}" target="_blank"  style="color: #4db5ff">View Certificate</a>
-        {% endif %}
-    </div>
+    <hr/>
     {% endfor %}
 </div>

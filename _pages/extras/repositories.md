@@ -3,8 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: Key project repositories where my contributions made a significant impact.
-nav: true
-nav_order: 4
+nav: false
 ---
 
 {% if site.data.repositories.github_users %}
