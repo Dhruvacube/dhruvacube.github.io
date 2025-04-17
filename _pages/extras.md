@@ -7,7 +7,7 @@ dropdown: true
 children:
   - title: Adverse
     newtab: false
-    permalink: /Adevrse/
+    permalink: /adverse/
   - title: divider
   - title: Repositories
     permalink: /repositories/
