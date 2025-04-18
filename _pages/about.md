@@ -20,14 +20,17 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <p style="text-align: justify;">
-<b>Innovative and results-driven Robotics and Automation Engineer-in-training</b> with a passion for merging <b>hardware and software</b> to create impactful solutions. Skilled in <b>Python programming</b>, specializing in <b>Discord.py bot development, full-stack web applications, and embedded systems</b>.
+I’m an innovative and results-driven Robotics and Automation Engineer-in-training, passionate about merging hardware and software to build impactful, scalable solutions. My core strengths lie in Python development, Discord.py bot systems, full-stack web applications, and embedded systems.
 </p>
 <p style="text-align: justify;">
-A <b>dedicated automation expert</b>, I am passionate about <b>optimizing workflows and eliminating manual tasks</b> through creative and efficient automated systems. My journey includes hands-on projects such as the <b>Mind-Controlled Bionic Arm with Sense of Touch</b> and <b>AI models for early Osteoporosis detection</b>. Proficient in <b>microcontroller programming</b> (Arduino, ESP32, Raspberry Pi) and experienced in <b>machine learning, industrial automation, and IoT</b>.
+I focus heavily on automating workflows and solving real-world problems with efficiency and creativity. Some of my hands-on work includes a <b>Mind-Controlled Bionic Arm with Sense of Touch</b>, and AI models for <b>early Osteoporosis detection</b>. I'm experienced with microcontroller platforms such as Arduino, ESP32, and Raspberry Pi, and well-versed in machine learning, IoT, and industrial automation.
 </p>
 <p style="text-align: justify;">
-In addition to technical expertise, I have <b>extensive experience in robotics education and competition management</b> through my roles at <b>India STEM Foundation</b> and <b>World Robot Olympiad (WRO) India</b>. I am currently <b>leading the ISF Certified STEM Teacher Training Program</b>, where I have developed a <b>4-hour training module to educate 1,000+ teachers</b> on STEM learning and a <b>30-period STEM curriculum</b> for schools. As a <b>Lead for WRO 2025</b>, I oversee <b>competition planning, event execution, quality assurance, and technical training</b>, ensuring a seamless experience for participants and educators.
+In parallel, I contribute actively to STEM education and robotics competition ecosystems. Through India STEM Foundation and World Robot Olympiad (WRO) India, I’ve led programs that trained over 1,000 educators and developed 30-period STEM curriculums for schools nationwide. As the current lead for <b>WRO 2025 India</b>, I manage technical operations, event planning, and training infrastructure.
 </p>
 <p style="text-align: justify;">
-An <b>active IEEE member and participant in standards working groups</b>, I am committed to <b>research, development, and open-source collaboration</b> in robotics and automation. Recognized for innovation with awards like the <b>IEEE SPS Scholarship</b> and accolades in <b>technical competitions</b>, I continuously strive to design and implement <b>cutting-edge solutions that bridge the gap between research and real-world applications</b>.
+Most recently, I designed and developed <b>Adverse</b> — an AI-powered Open-Source Intelligence (OSINT) system for digital identity verification and cyber surveillance. This innovation is now officially <b>published as a patent</b> by the Indian Patent Office.
+</p>
+<p style="text-align: justify;">
+As an active IEEE member and participant in standards working groups, I’m committed to open-source collaboration, R&D, and building solutions that bridge the gap between emerging technology and real-world deployment.
 </p>
