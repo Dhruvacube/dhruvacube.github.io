@@ -17,4 +17,7 @@ children:
   - title: divider
   - title: Webinars/Lectures
     permalink: /webinarsandlectures/
+  - title: divider
+  - title: Creative Net
+    permalink: https://creativenet.dhruvashaw.in
 ---
