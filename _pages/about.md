@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: A discord.py bot & full-stack developer on python myself a Robotics & Automation Engg undergrad student.
+subtitle: I build bots, full-stack tools, and robotics systems — one chaotic but functional line of Python at a time.
 
 profile:
   align: right
