@@ -33,10 +33,10 @@ I am part of the following standards organizations and working groups:
 | VT/HSTMSC                                              | High Speed Train and Maglev Standards Committee                                                         | Standards Committee       | Observer            |
 | VT/ITS                                                 | Intelligent Transportation Systems                                                                      | Standards Committee       | Participant         |
 
-
 ---
 
 ## ~~IEEE SA WG - P3120 [Standard for Quantum Computing Architecture]~~
+
 ### [WG was disband]
 
 ~~This standard defines a technical architecture for quantum computers. Features and characteristics of the architecture are based on quantum qubit modalities (e.g., superconducting, neutral atoms, trapped ions, photonic, NV centers), and mode of operations (e.g., digital and analog). The defined architectures include the hardware (e.g., signal generator), low-level software (e.g., quantum error correction) components, and programming method (description of quantum circuits, description of Hamiltonian evolution) of such architectures.~~
