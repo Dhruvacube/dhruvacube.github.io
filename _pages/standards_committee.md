@@ -9,32 +9,40 @@ nav_order: 6
 
 I am part of the following standards organizations and working groups:
 
-## IEEE SA WG - P3120 [Standard for Quantum Computing Architecture]
+| Committee                                              | Group Name                                                                                              | Group Type                | Participation Level |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------- |
+| C/AISC                                                 | Artificial Intelligence Standards Committee                                                             | Standards Committee       | Participant         |
+| C/AISC/AI Chips                                        | AI Chips                                                                                                | Entity Working Group      | Participant         |
+| C/AISC/AIL-WG                                          | AI Levels Working Group                                                                                 | Working Group             | Participant         |
+| C/AISC/DMAI                                            | Real-Person Digital Model Based on Artificial Intelligence                                              | Working Group             | Voting Member       |
+| C/MSC/QuARC/WG                                         | Quantum Computing Architecture Working Group                                                            | Working Group             | Participant         |
+| C/MSC/QuARC/WG/3120                                    | Standard for Quantum Computing Architecture                                                             | Project/Task Group        | Participant         |
+| COM/AerCom-SC/SLICB                                    | Specifications for lithium ion cells and batteries used in Unmanned Aircraft Systems UAS                | Entity Working Group      | Participant         |
+| COM/AerCom-SC/SLICB/1937.17                            | Standard for specifications for lithium ion cells and batteries used in Unmanned Aircraft Systems (UAS) | Entity Project/Task Group | Participant         |
+| NTC/SC/NanoCharactMFG_WG                               | Nanomaterials Characterization and Use in Large Scale Electronics Manufacturing                         | Working Group             | Voting Member       |
+|                                                        |                                                                                                         |                           |                     |
+| NTC/SC/QuSIM/WG/3155                                   | Standard for Programmable Quantum Simulator                                                             | Project/Task Group        | Participant         |
+| RAS/SC                                                 | Standing Committee for Standards                                                                        | Standards Committee       | Participant         |
+| RAS/SC/3D-MDR                                          | Robot 3D Map Data Representation                                                                        | Working Group             | Non-Voting Member   |
+| RAS/SC/HRIMetrics                                      | Human-Robot Interaction Metrics and Test Methods                                                        | Working Group             | Participant         |
+| RAS/SC/HRITerm                                         | Human-Robot Interaction Terminology                                                                     | Working Group             | Participant         |
+| RAS/SC/MDR                                             | Robot Map Data Representation                                                                           | Working Group             | Participant         |
+| SMC/SC                                                 | Standards Committee                                                                                     | Standards Committee       | Participant         |
+| SPS/SASC/Machine Learning for Synthetic Apertures/3520 | Recommended Practice for Leveraging Machine Learning in Synthetic Aperture Imaging and Sensing          | Project/Task Group        | Participant         |
+| VT/AVSC                                                | Automated Vehicles Standards Committee                                                                  | Standards Committee       | Participant         |
+| VT/HSTMSC                                              | High Speed Train and Maglev Standards Committee                                                         | Standards Committee       | Observer            |
+| VT/ITS                                                 | Intelligent Transportation Systems                                                                      | Standards Committee       | Participant         |
 
-This standard defines a technical architecture for quantum computers. Features and characteristics of the architecture are based on quantum qubit modalities (e.g., superconducting, neutral atoms, trapped ions, photonic, NV centers), and mode of operations (e.g., digital and analog). The defined architectures include the hardware (e.g., signal generator), low-level software (e.g., quantum error correction) components, and programming method (description of quantum circuits, description of Hamiltonian evolution) of such architectures.
+
+---
+
+## ~~IEEE SA WG - P3120 [Standard for Quantum Computing Architecture]~~
+### [WG was disband]
+
+~~This standard defines a technical architecture for quantum computers. Features and characteristics of the architecture are based on quantum qubit modalities (e.g., superconducting, neutral atoms, trapped ions, photonic, NV centers), and mode of operations (e.g., digital and analog). The defined architectures include the hardware (e.g., signal generator), low-level software (e.g., quantum error correction) components, and programming method (description of quantum circuits, description of Hamiltonian evolution) of such architectures.~~
+
+~~Participation Level: Voting Member~~
 
 [IEEE SA WG - P3120](https://standards.ieee.org/ieee/3120/11359/)
 
 ---
-
-## IEEE SA WG - P3348 [Recommended Practice for the Framework and Evaluation Methods of Two-Dimensional (2D) Real-Person Digital Clothes Model Generation System Based on Artificial Intelligence]
-
-This standard defines a framework including requirements and evaluation methods for a two-dimensional (2D) real-person digital clothes model generation system using artificial intelligence (AI). In the standard, the framework includes functional modules and the input/output interfaces of the 2D real-person digital clothes model generation system. The input interface includes pictures of the clothes to be presented, clothes measurements, and model types. The output interface provides a mechanism to export images of the generated models in clothes and multiple postures. The framework includes modules for digital model face generation, clothes generation, digital model posture generation, and image fusion. Methods for evaluating the generated 2D real-person digital clothes models are also specified in this standard.
-
-[IEEE SA WG - P3348](https://standards.ieee.org/ieee/3348/11180/)
-
----
-
-## IEEE SA WG - P3514 [Recommended Practice for Levels of Artificial Intelligence Capabilities for AI Entities and Applications]
-
-This recommended practice defines levels of capabilities of Artificial Intelligence (AI). The capability levels can be used to classify AI entities after benchmarking and evaluation. Evaluation criteria and specific benchmarks are provided for common capabilities per typical application scenarios/domains (e.g., AI used in a personal computer, in a mobile phone, or by robots).
-
-[IEEE SA WG - P3514](https://standards.ieee.org/ieee/3514/11739/)
-
----
-
-## IEEE SA WG - P62659 [Standard for Nanomanufacturing -- Large Scale Manufacturing for Nanoelectronics]
-
-This International Standard provides a framework for introducing nanoelectronics into large scale, high volume production in semiconductor manufacturing facilities through the incorporation of nanomaterials (e.g. carbon nanotubes, graphene, quantum dots, etc.). Since semiconductor manufacturing facilities need to incorporate practices that maintain high yields, there are very strict requirements for how manufacturing is performed. Nanomaterials represent a potential contaminant in semiconductor manufacturing facilities and need to be introduced in a structured and methodical way. This International Standard provides steps employed to facilitate the introduction of nanomaterials into the semiconductor manufacturing facilities. This sequence is described under the areas of raw materials acquisition, materials processing, design, integrated circuits (IC) fabrication, testing, and end-use. These activities represent the major stages of the supply chain in semiconductor manufacturing facilities.
-
-[IEEE SA WG - P62659](https://standards.ieee.org/ieee/62659/11082/)
