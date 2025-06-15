@@ -1,9 +1,6 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QhYS1c2AKJUNn4" async></script></form>
-    </div>
-    <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -21,9 +18,6 @@
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
-    <div class="container">
-      <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QhYS1c2AKJUNn4" async></script></form>
-    </div>
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
