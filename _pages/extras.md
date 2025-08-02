@@ -24,4 +24,5 @@ children:
   - title: divider
   - title: Creative Net
     permalink: https://creativenet.dhruvashaw.in
+    newtab: true
 ---
