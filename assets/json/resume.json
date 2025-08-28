@@ -46,14 +46,28 @@
   "work": [
     {
       "name": "World Robot Olympiad India",
+      "position": "Robotics Engineer",
+      "startDate": "2025-07-01",
+      "endDate": "2025-08-18"
+    },
+    {
+      "name": "India STEM Foundation",
+      "position": "Robotics Engineer",
+      "startDate": "2025-07-01",
+      "endDate": "2025-08-18"
+    },
+    {
+      "name": "World Robot Olympiad India",
       "position": "Robotics Engineer - Intern",
       "startDate": "2024-06-19",
+      "endDate": "2025-06-30",
       "summary": "As the <strong>Lead for the World Robot Olympiad (WRO) India 2025 Season</strong>, I serve as a <strong>Robotics Engineer & Event Manager</strong> at <strong>India STEM Foundation</strong>, overseeing <strong>competition planning, execution, and technical training</strong>. I have conducted <strong>technical training and mentorship sessions</strong> for students, teachers, and mentors, preparing them for WRO competitions. Additionally, I have led <strong>webinars and training sessions</strong> on <strong>electronics, robotics, and event management</strong> for WRO 2025.<br/>My role also involves <strong>managing competition logistics</strong>, including <strong>venue setup, mission model construction, mat quality assurance, and technical infrastructure</strong> at regional and national events. I am responsible for <strong>quality assurance and testing</strong>, ensuring WRO standards through <strong>mat inspection, mission model testing, and competition setup validation</strong>. I have also taken on key judging roles, serving as the <strong>Head Judge for RoboMission Junior</strong> at the <strong>Mumbai Regionals & Ahmedabad Nationals</strong>, ensuring fair assessments.<br/>Furthermore, I hosted and coordinated the <strong>WRO Kolkata Regionals</strong>, leading event execution and operations. In addition, I have <strong>trained and mentored two interns</strong>, one as a <strong>Team Coordinator</strong> and another as a <strong>Robotics Engineer - Intern</strong>, ensuring smooth event execution and technical support. Currently, I am also <strong>finalizing the WRO 2025 regional event dates</strong> and overseeing <strong>competition planning and execution</strong>"
     },
     {
       "name": "India STEM Foundation",
       "position": "Robotics Engineer - Intern",
       "startDate": "2024-06-19",
+      "endDate": "2025-06-30",
       "summary": "As the <strong>Lead for Robotics & STEM Training</strong> at <strong>India STEM Foundation</strong>, I am responsible for <strong>creating detailed reports</strong> on <strong>webinars, student training sessions, and WRO 2025 registration updates</strong>. I also <strong>lead the ISF Certified STEM Teacher Training Program</strong>, which equips educators with <strong>robotics and STEM education methodologies</strong>. As part of this initiative, I have <strong>developed a 4-hour STEM teacher training program</strong> to train <strong>1,000 educators</strong> in <strong>robotics and automation</strong>. Additionally, I have <strong>designed a structured 30-period STEM training curriculum</strong>, enabling teachers to <strong>effectively implement STEM learning</strong> in schools."
     }
   ],
