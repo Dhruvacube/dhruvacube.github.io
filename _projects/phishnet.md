@@ -13,18 +13,18 @@ PhishNet is designed to address the growing threat of sophisticated phishing att
 
 Our solution is built on a robust, scalable architecture and a unique dual-model AI approach:
 
-* **Proactive Threat Identification**: We use a powerful fuzzy permutation method with the `dnstwist` package to generate and check for malicious domains in near real-time.
-* **Dual-Model AI Engine**: Our core is a pipeline of two **Random Forest Classifiers**. One model analyzes structural features of a URL, while the second, more accurate model, also incorporates the raw URL string itself to learn intricate patterns.
-* **Scalable Backend**: PhishNet is built using **Django** and **PostgreSQL** for a secure, scalable foundation. We handle all asynchronous tasks and user-submitted requests using **Celery** to ensure efficiency.
-* **Automated Reporting**: The system processes submitted URLs and automatically generates and emails detailed reports to the user.
+- **Proactive Threat Identification**: We use a powerful fuzzy permutation method with the `dnstwist` package to generate and check for malicious domains in near real-time.
+- **Dual-Model AI Engine**: Our core is a pipeline of two **Random Forest Classifiers**. One model analyzes structural features of a URL, while the second, more accurate model, also incorporates the raw URL string itself to learn intricate patterns.
+- **Scalable Backend**: PhishNet is built using **Django** and **PostgreSQL** for a secure, scalable foundation. We handle all asynchronous tasks and user-submitted requests using **Celery** to ensure efficiency.
+- **Automated Reporting**: The system processes submitted URLs and automatically generates and emails detailed reports to the user.
 
 ### Looking Ahead
 
 This is just the beginning for PhishNet. We have a clear roadmap for future improvements, including:
 
-* Integrating the `subfinder` module for advanced subdomain discovery.
-* Performing historical data analysis using `cdx_toolkit`.
-* Incorporating **LSTM networks** to further enhance our AI model's accuracy.
+- Integrating the `subfinder` module for advanced subdomain discovery.
+- Performing historical data analysis using `cdx_toolkit`.
+- Incorporating **LSTM networks** to further enhance our AI model's accuracy.
 
 We're excited to continue developing PhishNet and contribute to a safer digital landscape. For more information, please explore our project repository.
 [PhishNet Project Repository](https://thecreativenet.in/projects/phishnet/)

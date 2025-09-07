@@ -13,9 +13,10 @@ Whether you're a student, a professional looking to upskill, or simply an ambiti
 This free session is a great way to experience the quality of our training and see how our comprehensive paid course can help you master Python and accelerate your career in automation, AI, and robotics.
 
 **Webinar Details:**
-* **Date:** September 5th, 2025
-* **Time:** 20:00 - 22:00 IST
-* **Cost:** FREE
+
+- **Date:** September 5th, 2025
+- **Time:** 20:00 - 22:00 IST
+- **Cost:** FREE
 
 Secure your spot now and take the first step toward a future in tech!
 
