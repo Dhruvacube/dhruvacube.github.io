@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-09-02 00:00:00-0530
+date: 2025-09-02 00:00:00 +0530
 inline: false
 related_posts: false
 title: "Join Me for an Exclusive Webinar Python for Beginners: Your First Hour of Code,"
