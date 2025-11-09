@@ -158,7 +158,7 @@
     {
       "institution": "Lovely Professional University",
       "studyType": "Bachelor of Technology",
-      "area": "Robotics and Automation",
+      "area": "Robotics and Automation [Deans List 2021-25]",
       "summary": "Deans List 2021-25",
       "score": "7.34",
       "startDate": "2021-08-01",
@@ -207,6 +207,10 @@
     {
       "language": "Bengali",
       "fluency": "Intermediate"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic"
     }
   ],
   "publications": [
