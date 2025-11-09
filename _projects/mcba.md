@@ -6,5 +6,5 @@ img: /assets/img/publication_preview/mcba_logo.jpeg
 importance: 2
 category: work
 giscus_comments: true
-redirect: https://creativenet.dhruvashaw.in/projects/mcba/
+redirect: https://thecreativenet.in/products/mcba/
 ---

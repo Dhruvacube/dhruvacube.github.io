@@ -1,8 +1,12 @@
 ---
-title: "Announcing PhishNet: A Proactive AI Solution for Phishing Detection"
+layout: page
+title: "PhishNet: A Proactive AI Solution for Phishing Detection"
 date: 2025-09-06 12:52:39 +0530
 tags: [project, cybersecurity, AI, machine learning]
-excerpt: "We're excited to announce PhishNet, a comprehensive AI-based solution developed by Creative Net to combat sophisticated phishing attacks."
+description: "We're excited to announce PhishNet, a comprehensive AI-based solution developed by Creative Net to combat sophisticated phishing attacks."
+redirect: https://thecreativenet.in/products/phishnet
+img: /assets/img/phishnet.png
+category: work
 ---
 
 We are thrilled to announce the official launch of PhishNet, a cutting-edge AI solution for the detection of phishing and suspected domains. Developed as a solution for the NTRO hackathon, PhishNet represents our team's commitment to creating impactful, real-world solutions for a critical cybersecurity challenge.

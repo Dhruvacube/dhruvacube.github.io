@@ -20,17 +20,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <p style="text-align: justify;">
-I’m an innovative and results-driven Robotics and Automation Engineer-in-training, passionate about merging hardware and software to build impactful, scalable solutions. My core strengths lie in Python development, Discord.py bot systems, full-stack web applications, and embedded systems.
-</p>
-<p style="text-align: justify;">
-I focus heavily on automating workflows and solving real-world problems with efficiency and creativity. Some of my hands-on work includes a <b>Mind-Controlled Bionic Arm with Sense of Touch</b>, and AI models for <b>early Osteoporosis detection</b>. I'm experienced with microcontroller platforms such as Arduino, ESP32, and Raspberry Pi, and well-versed in machine learning, IoT, and industrial automation.
-</p>
-<p style="text-align: justify;">
-In parallel, I contribute actively to STEM education and robotics competition ecosystems. Through India STEM Foundation and World Robot Olympiad (WRO) India, I’ve led programs that trained over 1,000 educators and developed 30-period STEM curriculums for schools nationwide. As the current lead for <b>WRO 2025 India</b>, I manage technical operations, event planning, and training infrastructure.
-</p>
-<p style="text-align: justify;">
-Most recently, I designed and developed <b>Adverse</b> — an AI-powered Open-Source Intelligence (OSINT) system for digital identity verification and cyber surveillance. This innovation is now officially <b>published as a patent</b> by the Indian Patent Office.
-</p>
-<p style="text-align: justify;">
-As an active IEEE member and participant in standards working groups, I’m committed to open-source collaboration, R&D, and building solutions that bridge the gap between emerging technology and real-world deployment.
+I’m a Robotics and Automation Engineer dedicated to bridging hardware and software innovation to create intelligent, scalable solutions with real-world impact. My expertise spans Python development, AI-driven automation, embedded systems, and full-stack applications, all centered on building technologies that make systems smarter and lives easier.
+
+I’m passionate about engineering systems that think and act. My work ranges from developing a Mind-Controlled Bionic Arm with a Sense of Touch to creating AI models for early Osteoporosis detection, blending neuroscience, data, and machine intelligence into human-centric design. I work extensively with Arduino, ESP32, and Raspberry Pi, with practical experience in machine learning, IoT, and industrial automation.
+
+Beyond engineering, I actively contribute to India’s STEM education and robotics ecosystem. As part of the India STEM Foundation and World Robot Olympiad (WRO) India, I’ve helped train over 1,000 educators and co-developed nationwide STEM curricula. Currently, as the Technical Lead for WRO India 2025, I oversee event strategy, infrastructure, and training programs, nurturing the next generation of innovators.
+
+Recently, I designed and built Adverse — an AI-powered Open-Source Intelligence (OSINT) platform for digital identity verification and cyber surveillance. This innovation has been granted publication by the Indian Patent Office, marking a key milestone in my pursuit of secure and ethical AI applications.
+
+As an active IEEE member and contributor to standards working groups, I believe technology should remain open, accessible, and impactful. My work under Creative नेट (Creative Net) embodies this principle — “Building Together, Sharing Freely” — combining research, creativity, and engineering discipline to advance automation for everyone.
 </p>

@@ -9,10 +9,6 @@ children:
     permalink: https://pages.razorpay.com/creativenet-consultancy
     newtab: true
   - title: divider
-  - title: Adverse
-    newtab: false
-    permalink: /adverse/
-  - title: divider
   - title: Repositories
     permalink: /repositories/
   - title: divider
@@ -23,6 +19,6 @@ children:
     permalink: /webinarsandlectures/
   - title: divider
   - title: Creative Net
-    permalink: https://creativenet.dhruvashaw.in
+    permalink: https://thecreativenet.in
     newtab: true
 ---

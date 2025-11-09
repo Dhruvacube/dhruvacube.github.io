@@ -6,5 +6,5 @@ description: Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokag
 img: /assets/img/projects/minatologo.jpeg
 importance: 2
 category: fun
-redirect: https://creativenet.dhruvashaw.in/projects/mcba/
+redirect: https://thecreativenet.in/products/minato_namikaze/
 ---

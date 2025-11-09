@@ -94,6 +94,16 @@
   ],
   "certificates": [
     {
+      "name": "Software Engineer",
+      "issuer": "Hackerrank",
+      "date": "2025-11-04",
+      "icon": "fa-solid fa-computer"
+    },{
+      "name": "How 5G & 6G Empower the Immersive XR Revolution",
+      "issuer": "IEEE Communications Society",
+      "date": "2024-11-06",
+      "icon": "fa-solid fa-rss"
+    },{
       "name": "Artificial Intelligence for Sustainable B5G/6G Networks",
       "issuer": "IEEE Communications Society",
       "date": "2024-09-14",
@@ -106,10 +116,22 @@
       "icon": "fa-solid fa-crosshairs"
     },
     {
+      "name": "Python (Basic) Certificate",
+      "issuer": "Hackerrank",
+      "date": "2020-12-27",
+      "icon": "fa-brands fa-python"
+    },
+    {
       "name": "Oracle Database 11g: Advanced PL/SQL",
       "issuer": "Central Tool Room & Training Centre, GOI",
       "date": "2020-07-10",
       "icon": "fa-solid fa-database"
+    },
+    {
+      "name": "IEEE Awareness Modulle on AI Ethics",
+      "issuer": "IEEE",
+      "date": "2024-02-02",
+      "icon": "fa-solid fa-hexagon-nodes"
     },
     {
       "name": "Autonomous and Mobile Robotics",
@@ -135,7 +157,8 @@
       "institution": "Lovely Professional University",
       "studyType": "Bachelor of Technology",
       "area": "Robotics and Automation",
-      "score": "7.2",
+      "summary": "Deans List 2021-25",
+      "score": "7.34",
       "startDate": "2021-08-01",
       "endDate": "2025-05-31",
       "date": "Aug 2021 - Sept 2025",
