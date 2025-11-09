@@ -29,4 +29,5 @@ Beyond engineering, I actively contribute to India’s STEM education and roboti
 Recently, I designed and built Adverse — an AI-powered Open-Source Intelligence (OSINT) platform for digital identity verification and cyber surveillance. This innovation has been granted publication by the Indian Patent Office, marking a key milestone in my pursuit of secure and ethical AI applications.
 
 As an active IEEE member and contributor to standards working groups, I believe technology should remain open, accessible, and impactful. My work under Creative नेट (Creative Net) embodies this principle — “Building Together, Sharing Freely” — combining research, creativity, and engineering discipline to advance automation for everyone.
+
 </p>
