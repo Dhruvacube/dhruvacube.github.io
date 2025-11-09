@@ -6,7 +6,7 @@ nav_order: 20
 dropdown: true
 children:
   - title: Consultancy
-    permalink: https://pages.razorpay.com/creativenet-consultancy
+    permalink: https://forms.gle/PXmTiMGf8EEjMedy9
     newtab: true
   - title: divider
   - title: Repositories
