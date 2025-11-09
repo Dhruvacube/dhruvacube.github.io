@@ -6,5 +6,5 @@ img: /assets/img/projects/fluxpoint.png
 importance: 3
 category: fun
 giscus_comments: true
-redirect: https://creativenet.dhruvashaw.in/projects/fluxpointpy/
+redirect: https://thecreativenet.in/products/fluxpointpy/
 ---
