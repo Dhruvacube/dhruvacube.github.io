@@ -1,4 +1,6 @@
 name: Prettier code formatter
+permissions:
+  contents: read
 
 on:
   pull_request:
