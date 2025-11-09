@@ -1,4 +1,6 @@
 name: Prettify gh-pages
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
