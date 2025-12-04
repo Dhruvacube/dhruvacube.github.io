@@ -3,7 +3,6 @@
     "name": "Dhruva Shaw",
     "headline": "A discord.py bot developer and a budding Robotics and Automation Engineer from LPU",
     "email": "me@dhruvashaw.in",
-    "phone": "+91 62922 11794",
     "location": {
       "countryCode": "IN",
       "region": "Delhi"
@@ -155,6 +154,15 @@
     }
   ],
   "education": [
+    {
+      "institution": "World Quant University",
+      "studyType": "Master of Science",
+      "area": "Financial Engineering",
+      "startDate": "2025-12-02",
+      "endDate": "2027-05-31",
+      "date": "Dec 2025 - 2027",
+      "url": "https://www.wqu.edu/"
+    },
     {
       "institution": "Lovely Professional University",
       "studyType": "Bachelor of Technology",
