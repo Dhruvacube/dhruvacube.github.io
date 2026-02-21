@@ -102,7 +102,7 @@ This feature set showcases the power of **Adverse** as a highly efficient **OSIN
 The patent for adverse been published in India Patent Journal (Issue No: 13/2025, 28/03/2025, Friday) under the title "Automated Open-Source Intelligence System for Digital Identity Verification and Cyber Surveillance" with the application number **202531018252**. _Pdf page - 1070_
 
 <div class="containerpdf">
-    <iframe src='https://personal.creativenet.tech/adverse-patent-journal-28thmarch.pdf#page=1070' class="responsive-object-pdf" type='application/pdf'></iframe>
+    <iframe src='https://bucket.thecreativenet.in/adverse-patent-journal-28thmarch.pdf#page=1070' class="responsive-object-pdf" type='application/pdf'></iframe>
 </div>
 
 ---
