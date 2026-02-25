@@ -6,5 +6,5 @@ img: /assets/img/adverse.png
 importance: 1
 category: work
 giscus_comments: true
-redirect: /adverse/
+redirect: https://thecreativenet.in/adverse/
 ---
