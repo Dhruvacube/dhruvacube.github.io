@@ -692,26 +692,28 @@ footer.sticky-bottom {
     flex-direction: column;
     min-height: 20rem;
     box-shadow: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+
     &:hover {
       transform: translateY(-4px);
     }
-    
+
     img {
       border-radius: 0.8rem;
       margin-bottom: 1.4rem;
       width: 100%;
       object-fit: cover;
     }
-    
+
     .card-body {
       padding: 0;
       display: flex;
       flex-direction: column;
       flex: 1;
     }
-    
+
     .card-title {
       font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif;
       font-size: 1.5rem;
@@ -720,7 +722,7 @@ footer.sticky-bottom {
       margin: 0 0 0.5rem;
       color: var(--global-text-color);
     }
-    
+
     .card-text {
       font-family: "Instrument Sans", system-ui, sans-serif;
       font-size: 1rem;
@@ -1456,12 +1458,12 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
     text-align: left !important;
     border-top: none !important;
   }
-  
+
   ol.bibliography {
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
-    
+
     li {
       background-color: var(--global-card-bg-color) !important;
       border-radius: 1.4rem !important;
@@ -1469,7 +1471,7 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
       margin-bottom: 0 !important;
       display: flex;
       flex-direction: column;
-      
+
       .title {
         font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif !important;
         font-size: 1.5rem !important;
@@ -1478,15 +1480,16 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
         margin: 0 0 0.5rem !important;
         color: var(--global-text-color) !important;
       }
-      
-      .author, .periodical {
+
+      .author,
+      .periodical {
         font-family: "Instrument Sans", system-ui, sans-serif !important;
         font-size: 1rem !important;
         color: var(--global-text-color-light) !important;
         line-height: 1.5 !important;
         margin-bottom: 0.25rem !important;
       }
-      
+
       .links {
         margin-top: 1rem !important;
         a.btn {
@@ -1495,8 +1498,10 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
           color: var(--global-text-color) !important;
           padding: 0.3rem 0.9rem !important;
           font-weight: 500 !important;
-          transition: background 0.2s, color 0.2s !important;
-          
+          transition:
+            background 0.2s,
+            color 0.2s !important;
+
           &:hover {
             background: var(--global-text-color) !important;
             color: var(--global-bg-color) !important;
@@ -1513,17 +1518,17 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
     padding: 1.4rem !important;
     border: none !important;
     box-shadow: none !important;
-    
+
     .list-group-item {
       border: none !important;
       padding: 1rem 0 !important;
       border-bottom: 1px solid var(--global-divider-color) !important;
-      
+
       &:last-child {
         border-bottom: none !important;
       }
     }
-    
+
     h3.card-title {
       font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif !important;
       font-size: 1.5rem !important;
