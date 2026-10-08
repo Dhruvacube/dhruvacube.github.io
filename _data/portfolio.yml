@@ -1,0 +1,82 @@
+# Everything on the home page (layout: portfolio) is edited here.
+# Internal links start with "/" and go through relative_url; external links contain "://".
+
+tagline: "I build bots, full-stack tools, and robotics systems."
+
+roles:
+  - Robotics Engineer
+  - AI & OSINT Builder
+  - Full-stack Developer
+
+# Header navigation. `extras` becomes the dropdown.
+nav:
+  - { name: publications, url: "/publications/" }
+  - { name: patents, url: "/patents/" }
+  - { name: projects, url: "/projects/" }
+  - { name: cv, url: "/cv/" }
+extras:
+  - { name: standardization, url: "/standards/" }
+  - { name: repositories, url: "/repositories/" }
+  - { name: competitions, url: "/competitions/" }
+  - { name: webinars/lectures, url: "/webinarsandlectures/" }
+  - { name: creative net, url: "https://thecreativenet.in" }
+
+clocks:
+  - { name: New Delhi, tz: Asia/Kolkata }
+  - { name: Tokyo, tz: Asia/Tokyo }
+  - { name: Berlin, tz: Europe/Berlin }
+  - { name: London, tz: Europe/London }
+  - { name: New York, tz: America/New_York }
+  - { name: San Francisco, tz: America/Los_Angeles }
+
+about:
+  - "I'm a Robotics and Automation engineer who likes the point where hardware meets software. My work spans AI-driven automation, embedded systems and full-stack development."
+  - "I invented Adverse, an AI-powered OSINT platform published as a patent by the Indian Patent Office. I also run Creative Net, an organisation committed to open, ethical innovation and built on one idea: Building Together, Sharing Freely."
+  - "I'm an active IEEE member and my research has been presented at IIT Ropar, IEEE SysCon and the Institution of Engineers (India)."
+cv_url: "/cv/"
+
+works:
+  - art: "MCBA"
+    title: "Mind-Controlled Bionic Arm"
+    text: "A mind-controlled bionic arm with a sense of touch. 2nd Best Poster Award at IIT Ropar EE-Research Day 2024."
+    tags: [Research poster, Bionics, Embedded]
+    url: "https://thecreativenet.in/products/mcba/"
+  - art: "Adv."
+    title: "Adverse"
+    text: "AI-powered OSINT platform, published as a patent by the Indian Patent Office."
+    tags: [Patent, OSINT]
+    url: "https://thecreativenet.in/adverse/"
+  - art: "M/S"
+    title: "Robotic Swarm Role Selection"
+    text: "Robots select master and slave configurations independently. Presented at IEEE SysCon 2024."
+    tags: [Paper, Swarm robotics]
+    url: "/assets/pdf/Robotic_Swarm_With_Independent_Selection_Of_Master_Slave_Configurations.pdf"
+  - art: "ML"
+    title: "Osteoarthritis ML Model"
+    text: "AI/ML-based early detection of osteoarthritis using Indian-specific medical data and images."
+    tags: [Machine learning, Healthcare]
+    url: "/projects/osteoarthirities/"
+  - art: "C.N."
+    title: "Creative Net"
+    text: "My organisation for open, ethical innovation."
+    tags: [Organisation, Open source]
+    url: "https://thecreativenet.in/"
+projects_url: "/projects/"
+
+services:
+  - { title: "robotics & embedded", items: [ESP32, Arduino, MicroPython] }
+  - { title: "ai & osint", items: [Machine learning, OSINT, Phishing detection] }
+  - { title: "software", items: [Python, Django, Discord bots, Full-stack tools] }
+
+chat:
+  text: "Got a project or a research idea? Send a consultancy request."
+  button: "request consultancy"
+consultancy_url: "https://forms.gle/PXmTiMGf8EEjMedy9"
+
+# Same profiles as _data/socials.yml. No email on purpose.
+elsewhere:
+  - { name: GitHub, url: "https://github.com/Dhruvacube" }
+  - { name: LinkedIn, url: "https://www.linkedin.com/in/dhruva-shaw" }
+  - { name: Scholar, url: "https://scholar.google.com/citations?user=cXeBj6sAAAAJ" }
+  - { name: ORCID, url: "https://orcid.org/0009-0009-6399-8756" }
+  - { name: YouTube, url: "https://youtube.com/@DhruvaShaw" }

@@ -1,0 +1,138 @@
+<!doctype html>
+{% assign p = site.data.portfolio %}
+<html lang="{{ site.lang }}">
+  <head>
+    {% comment %}
+      head.liquid provides the metadata, Open Graph, Schema.org, favicon, canonical, RSS (jekyll-feed),
+      al-folio theme.js and the initial theme (light/dark/system), exactly like every other page.
+    {% endcomment %}
+    {% include head.liquid %}
+    <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url | bust_css_cache }}">
+  </head>
+
+  <body class="pf">
+    <a class="pf-skip" href="#top">Skip to content</a>
+    <header class="pf-header">
+      <a class="pf-logo" href="{{ '/' | relative_url }}">dhruva<i>.</i></a>
+      <nav class="pf-nav" aria-label="Main">
+        {% for n in p.nav %}
+          <a href="{{ n.url | relative_url }}">{{ n.name }}</a>
+        {% endfor %}
+        <details class="pf-more">
+          <summary>extras</summary>
+          <div>
+            {% for e in p.extras %}
+              {% if e.url contains '://' %}
+                <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.name }}</a>
+              {% else %}
+                <a href="{{ e.url | relative_url }}">{{ e.name }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </details>
+        {% if site.enable_darkmode %}
+          {% comment %} #light-toggle is the id al-folio's theme.js binds to; it cycles light > dark > system. {% endcomment %}
+          <button id="light-toggle" class="pf-theme" type="button" title="Change theme">
+            theme <span class="pf-theme-state" aria-hidden="true"></span>
+            <span class="sr-only">(toggle light, dark or system theme)</span>
+          </button>
+        {% endif %}
+      </nav>
+    </header>
+    <div class="pf-clocks" aria-hidden="true"><div class="pf-track" id="pf-track"></div></div>
+
+    <main id="top" class="pf-wrap">
+      <section class="pf-hero">
+        <h1 class="pf-d">dhruva<span>.</span></h1>
+        <ul class="pf-roles">
+          {% for r in p.roles %}<li>{{ r }}</li>{% endfor %}
+        </ul>
+        <p class="pf-tag">{{ p.tagline }}</p>
+      </section>
+
+      <section class="pf-about" id="about">
+        <h2 class="pf-d">the<br>engineer.</h2>
+        <div>
+          {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
+          <a class="pf-btn" href="{{ p.cv_url | relative_url }}">read my CV</a>
+        </div>
+      </section>
+
+      <section class="pf-works" id="works">
+        <h2 class="pf-d">selected<br>works.</h2>
+        <div class="pf-rail" tabindex="0" role="region" aria-label="Selected works, scroll sideways">
+          {% for w in p.works %}
+            {% if w.url contains '://' %}
+              {% assign href = w.url %}
+            {% else %}
+              {% assign href = w.url | relative_url %}
+            {% endif %}
+            <a class="pf-card" href="{{ href }}">
+              <div class="pf-art" aria-hidden="true">{{ w.art }}</div>
+              <h3 class="pf-d">{{ w.title }}</h3>
+              <p>{{ w.text }}</p>
+              <ul>
+                {% for t in w.tags %}<li>{{ t }}</li>{% endfor %}
+              </ul>
+            </a>
+          {% endfor %}
+        </div>
+        <p class="pf-more-link"><a class="pf-btn" href="{{ p.projects_url | relative_url }}">view all projects</a></p>
+      </section>
+
+      <section class="pf-services" id="services">
+        <h2 class="pf-d">my<br>services.</h2>
+        {% for s in p.services %}
+          <div class="pf-svc">
+            <h3 class="pf-d">{{ s.title }}</h3>
+            <ul>
+              {% for i in s.items %}<li>{{ i }}</li>{% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </section>
+
+      <section class="pf-chat">
+        <h2 class="pf-d">want to<br>chat?</h2>
+        <p>{{ p.chat.text }}</p>
+        <a class="pf-btn" href="{{ p.consultancy_url }}" target="_blank" rel="noopener">{{ p.chat.button }}</a>
+      </section>
+    </main>
+
+    <footer class="pf-footer">
+      <ul aria-label="Elsewhere">
+        {% for e in p.elsewhere %}
+          <li><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.name }}</a></li>
+        {% endfor %}
+      </ul>
+      <span class="pf-copy">
+        © {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
+        {% if site.last_updated %}Last updated {{ site.time | date: '%B %-d, %Y' }}.{% endif %}
+      </span>
+    </footer>
+
+    {% include scripts.liquid %}
+
+    <script>
+      // World-clock ticker. Theme switching is handled by al-folio's theme.js (#light-toggle).
+      (function () {
+        var zones = {{ p.clocks | jsonify }};
+        var track = document.getElementById('pf-track');
+        if (!track || !zones.length) return;
+        var html = zones.map(function (z) { return '<span><b>' + z.name + '</b><time></time></span>'; }).join('');
+        track.innerHTML = html + html;
+        var spans = track.querySelectorAll('time');
+        function tick() {
+          var now = new Date();
+          spans.forEach(function (el, i) {
+            var z = zones[i % zones.length].tz;
+            var abbr = new Intl.DateTimeFormat('en', { timeZone: z, timeZoneName: 'short' }).formatToParts(now).pop().value;
+            el.textContent = now.toLocaleTimeString('en-GB', { timeZone: z, hour12: false }) + ' ' + abbr;
+          });
+        }
+        tick();
+        setInterval(tick, 1000);
+      })();
+    </script>
+  </body>
+</html>
