@@ -1584,3 +1584,22 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
 .container {
   max-width: 1000px !important; // wider brutalist layout
 }
+// Overriding bib layout row to make it a flex column
+ol.bibliography li {
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .abbr {
+    margin-bottom: 1rem !important;
+    max-width: fit-content;
+    
+    abbr {
+      font-family: 'Bricolage Grotesque', sans-serif !important;
+      font-size: 1.5rem !important;
+      padding: 0.5rem 1rem !important;
+      border-radius: 99px !important;
+    }
+  }
+}
