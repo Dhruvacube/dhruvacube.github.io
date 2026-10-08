@@ -14,7 +14,10 @@ body.pf {
   padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
   background: var(--bg);
   color: var(--ink);
-  font: 400 1.05rem/1.6 "Instrument Sans", system-ui, sans-serif;
+  font:
+    400 1.05rem/1.6 "Instrument Sans",
+    system-ui,
+    sans-serif;
   overflow-x: hidden;
 }
 html[data-theme="dark"] body.pf {
@@ -105,7 +108,9 @@ html:has(body.pf) {
   border-bottom: 1px solid var(--line);
 }
 .pf-logo {
-  font: 800 1.5rem "Bricolage Grotesque", sans-serif;
+  font:
+    800 1.5rem "Bricolage Grotesque",
+    sans-serif;
   letter-spacing: -0.04em;
 }
 .pf-logo i {
@@ -237,7 +242,9 @@ html[data-theme-setting="dark"] .pf-theme-state::after {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem 2rem;
-  font: 700 clamp(1.1rem, 2.4vw, 1.8rem) "Bricolage Grotesque", sans-serif;
+  font:
+    700 clamp(1.1rem, 2.4vw, 1.8rem) "Bricolage Grotesque",
+    sans-serif;
   letter-spacing: -0.02em;
   list-style: none;
   margin: 0;
@@ -275,7 +282,9 @@ html[data-theme-setting="dark"] .pf-theme-state::after {
   border-radius: 99px;
   padding: 0.6rem 1.3rem;
   font-weight: 500;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 .pf .pf-btn:hover {
   background: var(--ink);
@@ -314,7 +323,9 @@ html[data-theme-setting="dark"] .pf-theme-state::after {
   flex: 1;
   display: grid;
   place-items: center;
-  font: 800 clamp(4rem, 10vw, 6.5rem) "Bricolage Grotesque", sans-serif;
+  font:
+    800 clamp(4rem, 10vw, 6.5rem) "Bricolage Grotesque",
+    sans-serif;
   color: var(--acc);
   letter-spacing: -0.05em;
 }

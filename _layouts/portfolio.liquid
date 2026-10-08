@@ -45,21 +45,31 @@
       <section class="pf-hero">
         <h1 class="pf-d">dhruva<span>.</span></h1>
         <ul class="pf-roles">
-          {% for r in p.roles %}<li>{{ r }}</li>{% endfor %}
+          {% for r in p.roles %}
+            <li>{{ r }}</li>
+          {% endfor %}
         </ul>
         <p class="pf-tag">{{ p.tagline }}</p>
       </section>
 
       <section class="pf-about" id="about">
-        <h2 class="pf-d">the<br>engineer.</h2>
+        <h2 class="pf-d">
+          the<br>
+          engineer.
+        </h2>
         <div>
-          {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
+          {% for para in p.about %}
+            <p>{{ para }}</p>
+          {% endfor %}
           <a class="pf-btn" href="{{ p.cv_url | relative_url }}">read my CV</a>
         </div>
       </section>
 
       <section class="pf-works" id="works">
-        <h2 class="pf-d">selected<br>works.</h2>
+        <h2 class="pf-d">
+          selected<br>
+          works.
+        </h2>
         <div class="pf-rail" tabindex="0" role="region" aria-label="Selected works, scroll sideways">
           {% for w in p.works %}
             {% if w.url contains '://' %}
@@ -72,7 +82,9 @@
               <h3 class="pf-d">{{ w.title }}</h3>
               <p>{{ w.text }}</p>
               <ul>
-                {% for t in w.tags %}<li>{{ t }}</li>{% endfor %}
+                {% for t in w.tags %}
+                  <li>{{ t }}</li>
+                {% endfor %}
               </ul>
             </a>
           {% endfor %}
@@ -81,19 +93,27 @@
       </section>
 
       <section class="pf-services" id="services">
-        <h2 class="pf-d">my<br>services.</h2>
+        <h2 class="pf-d">
+          my<br>
+          services.
+        </h2>
         {% for s in p.services %}
           <div class="pf-svc">
             <h3 class="pf-d">{{ s.title }}</h3>
             <ul>
-              {% for i in s.items %}<li>{{ i }}</li>{% endfor %}
+              {% for i in s.items %}
+                <li>{{ i }}</li>
+              {% endfor %}
             </ul>
           </div>
         {% endfor %}
       </section>
 
       <section class="pf-chat">
-        <h2 class="pf-d">want to<br>chat?</h2>
+        <h2 class="pf-d">
+          want to<br>
+          chat?
+        </h2>
         <p>{{ p.chat.text }}</p>
         <a class="pf-btn" href="{{ p.consultancy_url }}" target="_blank" rel="noopener">{{ p.chat.button }}</a>
       </section>
@@ -102,11 +122,15 @@
     <footer class="pf-footer">
       <ul aria-label="Elsewhere">
         {% for e in p.elsewhere %}
-          <li><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.name }}</a></li>
+          <li>
+            <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.name }}</a>
+          </li>
         {% endfor %}
       </ul>
       <span class="pf-copy">
-        © {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
+        © {{ site.time | date: '%Y' }}
+        {{ site.first_name }}
+        {{ site.last_name }}.
         {% if site.last_updated %}Last updated {{ site.time | date: '%B %-d, %Y' }}.{% endif %}
       </span>
     </footer>
