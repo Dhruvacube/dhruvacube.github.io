@@ -675,7 +675,7 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
-
+    color: inherit;
     &:hover {
       .card-title {
         color: var(--global-theme-color);
@@ -684,13 +684,54 @@ footer.sticky-bottom {
   }
 
   .card {
+    background-color: var(--global-card-bg-color);
+    border-radius: 1.4rem;
+    padding: 1.4rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    box-shadow: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-4px);
+    }
+    
     img {
+      border-radius: 0.8rem;
+      margin-bottom: 1.4rem;
       width: 100%;
+      object-fit: cover;
+    }
+    
+    .card-body {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    
+    .card-title {
+      font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.5rem;
+      color: var(--global-text-color);
+    }
+    
+    .card-text {
+      font-family: "Instrument Sans", system-ui, sans-serif;
+      font-size: 1rem;
+      color: var(--global-text-color-light);
+      margin: 0 0 1rem;
+      line-height: 1.5;
     }
   }
 
   .col {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 
   .grid-sizer,
@@ -700,12 +741,16 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
+    color: var(--global-text-color);
+    font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif;
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    border-bottom: none;
   }
 }
 
@@ -1396,4 +1441,95 @@ html[data-theme-setting="light"] .toggle-container button .pf-theme-state::after
 }
 html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after {
   content: "dark";
+}
+// Internal Cards and Lists styling overrides
+.publications {
+  h2.bibliography {
+    color: var(--global-text-color) !important;
+    font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif !important;
+    font-size: clamp(2rem, 5vw, 4rem) !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.04em !important;
+    padding-top: 1rem !important;
+    margin-top: 3rem !important;
+    margin-bottom: 2rem !important;
+    text-align: left !important;
+    border-top: none !important;
+  }
+  
+  ol.bibliography {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    
+    li {
+      background-color: var(--global-card-bg-color) !important;
+      border-radius: 1.4rem !important;
+      padding: 1.4rem !important;
+      margin-bottom: 0 !important;
+      display: flex;
+      flex-direction: column;
+      
+      .title {
+        font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif !important;
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.03em !important;
+        margin: 0 0 0.5rem !important;
+        color: var(--global-text-color) !important;
+      }
+      
+      .author, .periodical {
+        font-family: "Instrument Sans", system-ui, sans-serif !important;
+        font-size: 1rem !important;
+        color: var(--global-text-color-light) !important;
+        line-height: 1.5 !important;
+        margin-bottom: 0.25rem !important;
+      }
+      
+      .links {
+        margin-top: 1rem !important;
+        a.btn {
+          border-radius: 99px !important;
+          border: 1px solid var(--global-text-color) !important;
+          color: var(--global-text-color) !important;
+          padding: 0.3rem 0.9rem !important;
+          font-weight: 500 !important;
+          transition: background 0.2s, color 0.2s !important;
+          
+          &:hover {
+            background: var(--global-text-color) !important;
+            color: var(--global-bg-color) !important;
+          }
+        }
+      }
+    }
+  }
+}
+// CV override
+.cv {
+  .card {
+    border-radius: 1.4rem !important;
+    padding: 1.4rem !important;
+    border: none !important;
+    box-shadow: none !important;
+    
+    .list-group-item {
+      border: none !important;
+      padding: 1rem 0 !important;
+      border-bottom: 1px solid var(--global-divider-color) !important;
+      
+      &:last-child {
+        border-bottom: none !important;
+      }
+    }
+    
+    h3.card-title {
+      font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif !important;
+      font-size: 1.5rem !important;
+      font-weight: 700 !important;
+      letter-spacing: -0.03em !important;
+      margin: 0 0 1rem !important;
+    }
+  }
 }
