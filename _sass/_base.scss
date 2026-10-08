@@ -4,6 +4,23 @@
 
 // Typography
 
+body {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif;
+  letter-spacing: -0.03em;
+}
+
 p,
 h1,
 h2,
@@ -1341,4 +1358,42 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+// Custom Navbar Match for portfolio-v2
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -0.04em;
+  i {
+    color: var(--global-theme-color);
+    font-style: normal;
+  }
+}
+
+.toggle-container button {
+  background: none;
+  border: 1px solid var(--global-text-color);
+  color: var(--global-text-color);
+  border-radius: 99px;
+  padding: 0.3rem 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: 1.4;
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+  .pf-theme-state {
+    color: var(--global-text-color-light);
+    font-size: 0.85em;
+    &::after {
+      content: "auto";
+    }
+  }
+}
+html[data-theme-setting="light"] .toggle-container button .pf-theme-state::after {
+  content: "light";
+}
+html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after {
+  content: "dark";
 }

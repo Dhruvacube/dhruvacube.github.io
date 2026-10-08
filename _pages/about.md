@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: portfolio
 title: About
 permalink: /
 subtitle: I build bots, full-stack tools, and robotics systems.

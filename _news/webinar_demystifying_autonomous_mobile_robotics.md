@@ -26,7 +26,7 @@ Where: Online (Make sure to register to secure your spot!)
 
 This is your chance to explore the transformative potential of autonomous mobile robotics, as we break down the technology and showcase its real-world applications in healthcare. Don't miss out on this deep dive into the future of robotics!
 
-Register here: [https://forms.gle/xAQoeprgkeNgaXEPA](https://forms.gle/xAQoeprgkeNgaXEPA)
+Register here: [https://forms.gle/PXmTiMGf8EEjMedy9](https://forms.gle/PXmTiMGf8EEjMedy9)
 
 #DemystifyingRobotics #AutonomousRobotics #HealthcareInnovation
 
