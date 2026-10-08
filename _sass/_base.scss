@@ -1538,3 +1538,46 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
     }
   }
 }
+// Global Lists to Cards
+.post-list li,
+.news table td {
+  background-color: var(--global-card-bg-color) !important;
+  border-radius: 1.4rem !important;
+  padding: 1.4rem !important;
+  margin-bottom: 1.4rem !important;
+  border-bottom: none !important;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+.post-list li a {
+  font-family: "Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.03em !important;
+  margin: 0 0 0.5rem !important;
+  color: var(--global-text-color) !important;
+}
+
+.post-list li .post-meta, .post-list li .post-tags {
+  font-family: "Instrument Sans", system-ui, sans-serif !important;
+  font-size: 1rem !important;
+  color: var(--global-text-color-light) !important;
+  line-height: 1.5 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+// GitHub repo cards custom rounding
+.repo img {
+  border-radius: 1.4rem !important;
+}
+
+// Ensure the container margins fit the rounded cards well
+.container {
+  max-width: 1000px !important; // wider brutalist layout
+}
