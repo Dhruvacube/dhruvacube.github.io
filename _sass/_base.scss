@@ -1548,8 +1548,10 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
   border-bottom: none !important;
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+
   &:hover {
     transform: translateY(-4px);
   }
@@ -1564,7 +1566,8 @@ html[data-theme-setting="dark"] .toggle-container button .pf-theme-state::after 
   color: var(--global-text-color) !important;
 }
 
-.post-list li .post-meta, .post-list li .post-tags {
+.post-list li .post-meta,
+.post-list li .post-tags {
   font-family: "Instrument Sans", system-ui, sans-serif !important;
   font-size: 1rem !important;
   color: var(--global-text-color-light) !important;
