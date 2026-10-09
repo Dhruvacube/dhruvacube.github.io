@@ -2,7 +2,6 @@
 layout: page
 title: Shaw Durga Puja
 description: The "Shaw Durga Puja" project aims to live stream and document the Durga Puja rituals, providing a digital connection for distant relatives and friends. Initiated in 2001 and enhanced with modern technology, this platform ensures the rituals are preserved and shared in real-time during the puja season.
-img: /assets/img/projects/shawdurgapuja.jpeg
 importance: 4
 category: work
 giscus_comments: true

@@ -78,7 +78,11 @@
               {% assign href = w.url | relative_url %}
             {% endif %}
             <a class="pf-card" href="{{ href }}">
-              <div class="pf-art" aria-hidden="true">{{ w.art }}</div>
+              {% if w.img %}
+                <div class="pf-art" aria-hidden="true"><img src="{{ w.img | relative_url }}" alt="" class="pf-art-img"></div>
+              {% else %}
+                <div class="pf-art" aria-hidden="true">{{ w.art }}</div>
+              {% endif %}
               <h3 class="pf-d">{{ w.title }}</h3>
               <p>{{ w.text }}</p>
               <ul>
@@ -156,6 +160,55 @@
         }
         tick();
         setInterval(tick, 1000);
+      })();
+    </script>
+    <script>
+      // Horizontal scroll for portfolio rail using vertical mouse wheel and drag
+      (function () {
+        var rail = document.querySelector('.pf-rail');
+        if (!rail) return;
+
+        // Mouse wheel to horizontal scroll
+        rail.addEventListener('wheel', function (e) {
+          if (e.deltaY !== 0) {
+            var canScrollLeft = rail.scrollLeft > 0 && e.deltaY < 0;
+            var canScrollRight = Math.ceil(rail.scrollLeft) < rail.scrollWidth - rail.clientWidth && e.deltaY > 0;
+            if (canScrollLeft || canScrollRight) {
+              e.preventDefault();
+              rail.scrollLeft += e.deltaY;
+            }
+          }
+        });
+
+        // Click and drag to scroll
+        var isDown = false;
+        var startX;
+        var scrollLeft;
+
+        rail.addEventListener('mousedown', function (e) {
+          isDown = true;
+          rail.style.cursor = 'grabbing';
+          startX = e.pageX - rail.offsetLeft;
+          scrollLeft = rail.scrollLeft;
+        });
+
+        rail.addEventListener('mouseleave', function () {
+          isDown = false;
+          rail.style.cursor = '';
+        });
+
+        rail.addEventListener('mouseup', function () {
+          isDown = false;
+          rail.style.cursor = '';
+        });
+
+        rail.addEventListener('mousemove', function (e) {
+          if (!isDown) return;
+          e.preventDefault();
+          var x = e.pageX - rail.offsetLeft;
+          var walk = (x - startX) * 2;
+          rail.scrollLeft = scrollLeft - walk;
+        });
       })();
     </script>
   </body>
