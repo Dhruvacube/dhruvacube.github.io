@@ -195,16 +195,21 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
+  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-tabs
   - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
 
 # Sitemap settings
 defaults:
@@ -229,6 +234,12 @@ jekyll-minifier:
   # Jekyll Archives
   # -----------------------------------------------------------------------------
 
+jekyll-archives:
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
   permalinks:
     year: "/blog/:year/"
     tag: "/blog/tag/:name/"
