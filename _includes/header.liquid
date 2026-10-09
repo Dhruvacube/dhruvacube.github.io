@@ -30,8 +30,6 @@
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
-
-
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
@@ -105,7 +103,10 @@
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <span class="nav-link">theme <span id="light-toggle-system">system</span><span id="light-toggle-dark">dark</span><span id="light-toggle-light">light</span></span>
+                <span class="nav-link"
+                  >theme <span id="light-toggle-system">system</span><span id="light-toggle-dark">dark</span
+                  ><span id="light-toggle-light">light</span></span
+                >
                 <span class="sr-only">(toggle light, dark or system theme)</span>
               </button>
             </li>
@@ -123,4 +124,3 @@
     </progress>
   {% endif %}
 </header>
-
