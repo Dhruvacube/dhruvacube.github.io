@@ -2,7 +2,6 @@
 layout: page
 title: 8051 Obstacle Avoider
 description: An obstacle avoidance system built using the 8051 microcontroller, programmed with Keil and simulated virtually in Proteus for testing and development.
-img: /assets/img/projects/oa_8051.jpeg
 importance: 12
 category: fun
 giscus_comments: true

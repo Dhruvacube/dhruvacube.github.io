@@ -2,7 +2,6 @@
 layout: page
 title: Bluetooth RC Car
 description: A remote-controlled car developed using Arduino UNO/Nano and HC05 Bluetooth module for wireless communication, successfully used in the university's RC-car competition.
-img: /assets/img/projects/ble_car.jpg
 importance: 11
 category: fun
 giscus_comments: true

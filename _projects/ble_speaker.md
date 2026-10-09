@@ -2,7 +2,6 @@
 layout: page
 title: TG-113 BLE Speaker
 description: The TG-113 BLE Speaker is built using a simple, premade TG-113 breakout circuit board, offering wireless Bluetooth functionality for music streaming.
-img: /assets/img/projects/tg113.jpg
 importance: 10
 category: fun
 giscus_comments: true

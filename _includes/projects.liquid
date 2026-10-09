@@ -2,13 +2,19 @@
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" style="text-decoration: none; color: inherit; display: block; height: 100%;">
     <div class="pf-card" style="background: var(--global-card-bg-color); border-radius: 1.4rem; padding: 1.4rem; display: flex; flex-direction: column; height: 100%; min-height: 26rem; transition: transform 0.2s ease; border: none; overflow: hidden;">
       
-      <div class="pf-art" style="flex: 1 0 10rem; display: grid; place-items: center; font: 800 clamp(4rem, 10vw, 6.5rem) 'Bricolage Grotesque', sans-serif; color: var(--global-theme-color); letter-spacing: -0.05em; padding: 1rem 0;">
-        {% if project.art %}
-          {{ project.art }}
-        {% elsif project.title %}
-          {{ project.title | slice: 0, 3 | upcase }}
-        {% endif %}
-      </div>
+      {% if project.img %}
+        <div class="pf-art" style="flex: 1 0 10rem; overflow: hidden; border-radius: 0.8rem; margin-bottom: 1rem;">
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+      {% else %}
+        <div class="pf-art" style="flex: 1 0 10rem; display: grid; place-items: center; font: 800 clamp(4rem, 10vw, 6.5rem) 'Bricolage Grotesque', sans-serif; color: var(--global-theme-color); letter-spacing: -0.05em; padding: 1rem 0;">
+          {% if project.art %}
+            {{ project.art }}
+          {% elsif project.title %}
+            {{ project.title | slice: 0, 3 | upcase }}
+          {% endif %}
+        </div>
+      {% endif %}
 
       <div class="pf-card-body" style="padding: 0; display: flex; flex-direction: column; flex: 0 0 auto;">
         <h3 style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.5rem; font-weight: 700; margin: 0 0 0.5rem; color: var(--global-text-color); letter-spacing: -0.03em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ project.title }}</h3>

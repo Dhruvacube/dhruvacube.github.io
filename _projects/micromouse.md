@@ -2,7 +2,6 @@
 layout: page
 title: Micromouse - (Micropython)
 description: The Micromouse robot, powered by an ESP21-DEVKIT V1 microcontroller, utilizes an optimized maze-solving algorithm combining A* and Flood Fill techniques with a modified heuristic. Designed for the Techfest 2023-2024, it is programmed using MicroPython, and the PCB layout is crafted in EASY EDA.
-img: /assets/img/projects/micromouse.png
 importance: 8
 category: fun
 giscus_comments: true
